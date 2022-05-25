@@ -6,7 +6,11 @@
    margin: 0;
    padding: 0;
 }
-
+main {
+   max-width: 800px;
+   min-width: 320px;
+   margin: auto;
+}
 /* Declaración de variables */
 :root {
    --color1:#FFC2A3;
@@ -20,7 +24,9 @@
    --color-negro:#000000;
    --color-gris-oscuro:#454545;
 }
-
+img {
+   width: 100px;
+}
 
 /* Selector de estilo de tipo HTML */
 body {
