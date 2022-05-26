@@ -7,8 +7,8 @@
    padding: 0;
 }
 main {
-   max-width: 800px;
-   min-width: 320px;
+   max-width: auto;
+   min-width: auto;
    margin: auto;
 }
 /* Declaración de variables */
@@ -70,24 +70,15 @@ h3 {
 
 /* Selectores de tipo ID */
 #cabecera {
-   background-color: var(--color-blanco);
-   color: var(--color-gris-oscuro);
+   background-color:white;
+   color: var(--color10);
+   padding-bottom: 50px;
+   margin-bottom: 20px;
 }
 
 #hogar {
    background-color: var(--color-blanco);
    color: var(--color-gris-oscuro);
-}
-
-#ELIGEATUCOMPAÑERO {
-   background-color: var(--color-blanco);
-   color: var(--color-gris-oscuro);
-}
-
-#historia {
-   background-color: var(--color-blanco);
-   color: var(--color-gris-oscuro);
-
 }
 
 #ayuda {
@@ -108,9 +99,8 @@ h3 {
 }
 
 /* Selectores de tipo CLASS */
-.espaciado {
-   padding-top: 90px;
-   padding-bottom: 90px;
+.espacio_clip {
+   border-width: 50p
 }
 
 .contenedor {
