@@ -80,8 +80,12 @@ h3 {
    background-color: var(--color2);
    color: var(--color-gris-oscuro);
 }
+video_clip{
+   border-radius: 20px 20px 20px;
+}
 #clips{
    background-color: #aab6ec;
+   
 }
 
 /* Selectores de tipo CLASS */
