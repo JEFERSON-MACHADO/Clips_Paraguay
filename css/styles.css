@@ -31,7 +31,7 @@ img {
 /* Selector de estilo de tipo HTML */
 body {
    color:var(--color5); /* Color del texto */
-   background-color: var(--color4); /* Color del fondo */
+   /* Color del fondo */
 
    /* Tipo de letra */
    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
@@ -71,36 +71,23 @@ h3 {
 /* Selectores de tipo ID */
 #cabecera {
    background-color:white;
-   color: var(--color10);
+   color: var(--color);
    padding-bottom: 50px;
    margin-bottom: 20px;
-}
-
-#hogar {
-   background-color: var(--color-blanco);
-   color: var(--color-gris-oscuro);
 }
 
 #ayuda {
    background-color: var(--color2);
    color: var(--color-gris-oscuro);
 }
-
-#Gatos {
-   color: var(--color4);
-}
-
-#adoptante {
-   color: var(--color6);
-}
-
-#misionyvision {
-   color: var(--color3);
+#clips{
+   background-color: #aab6ec;
 }
 
 /* Selectores de tipo CLASS */
 .espacio_clip {
-   border-width: 50p
+   border-width: 50px;
+   color: #f50a0a;
 }
 
 .contenedor {
